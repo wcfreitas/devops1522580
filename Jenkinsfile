@@ -4,7 +4,7 @@ pipeline{
         stage('NPM Install'){
             steps{
                 sh '''
-                    npm install --fix-missing
+                    npm install
                     
                 '''
             }
