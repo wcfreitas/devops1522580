@@ -1,6 +1,6 @@
 pipeline{
     agent any
-    tools {node.js "node"};
+    tools {nodejs "node"};
     stages{
         stage('NPM Install'){
             steps{
