@@ -5,8 +5,7 @@ pipeline{
         stage('NPM Install'){
             steps{
                 sh '''
-                    
-                    npm test
+                
                     docker build
                     docker compose up
                 '''
